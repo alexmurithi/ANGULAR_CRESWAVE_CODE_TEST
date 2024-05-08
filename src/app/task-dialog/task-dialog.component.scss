@@ -1,0 +1,65 @@
+// Dialog Styles
+.task-dialog {
+  max-width: 500px;
+  padding: 20px;
+
+  h2[mat-dialog-title] {
+    color: #424242;
+    margin-bottom: 15px;
+  }
+
+  mat-dialog-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    mat-form-field {
+      width: 100%;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  mat-dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+
+    button[mat-button] {
+      margin-left: 10px;
+    }
+
+    button[mat-button][color="primary"] {
+      background-color: #1976d2;
+      color: #fff;
+      &:hover {
+        background-color: darken(#1976d2, 10%);
+      }
+    }
+  }
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+  .task-dialog {
+    max-width: 95%;
+    padding: 15px;
+
+    mat-dialog-content {
+      gap: 10px;
+    }
+
+    mat-dialog-actions {
+      flex-direction: column;
+      align-items: stretch;
+
+      button[mat-button] {
+        width: 100%;
+        margin: 5px 0;
+      }
+    }
+  }
+}

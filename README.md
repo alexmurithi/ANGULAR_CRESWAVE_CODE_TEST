@@ -1,27 +1,116 @@
-# Tasks
+# Task Manager Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+A task management application built with Angular and Angular Material. The application provides a user-friendly interface to view, add, edit, and delete tasks. It uses `json-server` as a mock backend to simulate real-world scenarios.
 
-## Development server
+## Screenshots
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Tasks Component](src/assets/images/task-manager-tasks.png)
+![Tasks Component](src/assets/images/task-manager-new.png)
+![Tasks Component](src/assets/images/task-manager-edit.png)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Create new tasks
+- View a list of tasks
+- Edit existing tasks
+- Delete tasks
+- Responsive design using Angular Material.
+- Mock backend using `json-server`.
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
 
-## Running unit tests
+- Node.js
+- npm
+- Angular CLI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installation
 
-## Running end-to-end tests
+1. Clone the repository:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```bash
+   git clone https://github.com/alexmurithi/task-manager-prep.git
+   ```
 
-## Further help
+2. Change to the project directory:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   cd task-manager-app
+   ```
+
+3. Install project dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Install Angular Material:
+
+   ```bash
+   ng add @angular/material
+   ```
+
+5. Install `json-server` globally:
+   ```bash
+   npm install -g json-server
+   ```
+
+### Mock Backend Setup
+
+1.  Create a `db.json` file (if not existing) in the project root with the following content:
+
+    ```json
+    {
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Breakfast",
+          "description": "Prepare a healthy breakfast",
+          "status": "incomplete"
+        },
+        {
+          "id": 2,
+          "title": "Workout",
+          "description": "Complete a 30-minute workout",
+          "status": "complete"
+        },
+        {
+          "id": 3,
+          "title": "Lunch",
+          "description": "Prepare a delicious meal for lunch",
+          "status": "incomplete"
+        },
+        {
+          "id": 4,
+          "title": "Grocery Shopping",
+          "description": "Buy essentials for the week",
+          "status": "incomplete"
+        },
+        {
+          "id": 5,
+          "title": "Read Book",
+          "description": "Finish reading the current book",
+          "status": "incomplete"
+        }
+      ]
+    }
+    ```
+
+2.  Start the mock backend server:
+    ```bash
+    json-server --watch db.json
+    ```
+
+The server will run on `http://localhost:3000`.
+
+### Running the Application
+
+1. Start the Angular development server:
+
+   ```bash
+   npm start
+   ```
+
+2. Visit the application at `http://localhost:4200`.
+

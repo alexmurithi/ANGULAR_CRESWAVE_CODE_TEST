@@ -1,16 +1,16 @@
 <div class="task-details">
-  <form [formGroup]="taskForm" (ngSubmit)="onSubmit()">
-    <mat-form-field appearance="fill">
+  <form [formGroup]="taskForm" (ngSubmit)="onSubmit()" class="edit-task-form">
+    <mat-form-field appearance="fill" class="task-input">
       <mat-label>Title</mat-label>
       <input matInput formControlName="title" />
     </mat-form-field>
 
-    <mat-form-field appearance="fill">
+    <mat-form-field appearance="fill" class="task-input">
       <mat-label>Description</mat-label>
       <textarea matInput formControlName="description"></textarea>
     </mat-form-field>
 
-    <mat-form-field appearance="fill">
+    <mat-form-field appearance="fill" class="task-input">
       <mat-label>Status</mat-label>
       <mat-select formControlName="status">
         <mat-option value="complete">Complete</mat-option>
@@ -18,6 +18,8 @@
       </mat-select>
     </mat-form-field>
 
-    <button mat-raised-button color="primary" type="submit">Save</button>
+    <button mat-raised-button color="primary" type="submit" class="submit-btn">
+      Save
+    </button>
   </form>
 </div>

@@ -1,1 +1,12 @@
-<router-outlet />
+<div class="layout-container">
+  <mat-toolbar color="primary">
+    <a routerLink="/tasks" style="text-decoration: none; color: inherit">
+      <span>Task Manager</span>
+    </a>
+    <span class="spacer"></span>
+  </mat-toolbar>
+
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
