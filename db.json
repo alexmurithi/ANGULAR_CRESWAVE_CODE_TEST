@@ -1,0 +1,112 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Finalize Quarterly Report",
+      "description": "Compile and finalize the quarterly financial report for the executive team review.",
+      "status": "incomplete"
+    },
+    {
+      "id": "3",
+      "title": "Prepare Project Proposal",
+      "description": "Draft a detailed project proposal for the new client pitch next week.",
+      "status": "incomplete"
+    },
+    {
+      "id": "4",
+      "title": "Organize Team Meeting",
+      "description": "Schedule and prepare an agenda for the upcoming project alignment meeting.",
+      "status": "complete"
+    },
+    {
+      "id": "5",
+      "title": "Conduct Market Research",
+      "description": "Carry out market research to identify current trends in our industry sector.",
+      "status": "incomplete"
+    },
+    {
+      "id": "6",
+      "title": "Review Vendor Contracts",
+      "description": "Review and negotiate the terms on new vendor contracts for the next fiscal year.",
+      "status": "complete"
+    },
+    {
+      "id": "7",
+      "title": "Develop Training Material",
+      "description": "Create and distribute training materials for the new software rollout.",
+      "status": "incomplete"
+    },
+    {
+      "id": "8",
+      "title": "Plan Annual Company Retreat",
+      "description": "Plan all details for the annual company retreat including location, activities, and accommodations.",
+      "status": "complete"
+    },
+    {
+      "id": "9",
+      "title": "Audit Internal Processes",
+      "description": "Conduct a thorough audit of internal business processes to improve efficiency.",
+      "status": "incomplete"
+    },
+    {
+      "id": "10",
+      "title": "Manage Social Media Campaign",
+      "description": "Oversee the current social media campaign and analyze its effectiveness in real-time.",
+      "status": "complete"
+    },
+    {
+      "id": "11",
+      "title": "Coordinate with Suppliers",
+      "description": "Coordinate logistics and timelines with suppliers for upcoming product launches.",
+      "status": "incomplete"
+    },
+    {
+      "id": "12",
+      "title": "Implement Cybersecurity Measures",
+      "description": "Implement and review cybersecurity measures to protect company data.",
+      "status": "complete"
+    },
+    {
+      "id": "13",
+      "title": "Update Employee Records",
+      "description": "Ensure all employee records are up-to-date and securely stored.",
+      "status": "incomplete"
+    },
+    {
+      "id": "14",
+      "title": "Optimize SEO Strategies",
+      "description": "Review and optimize the current SEO strategies to improve online visibility.",
+      "status": "complete"
+    },
+    {
+      "id": "15",
+      "title": "Organize Corporate Workshop",
+      "description": "Plan and execute a workshop on leadership and innovation for senior management.",
+      "status": "incomplete"
+    },
+    {
+      "id": "16",
+      "title": "Renew Business Licenses",
+      "description": "Ensure all necessary business licenses are renewed before the deadline.",
+      "status": "complete"
+    },
+    {
+      "id": "17",
+      "title": "Evaluate New Technologies",
+      "description": "Evaluate new technologies that could enhance operational efficiency.",
+      "status": "incomplete"
+    },
+    {
+      "id": "18",
+      "title": "Prepare Budget Forecast",
+      "description": "Prepare the next quarter's budget forecast for review by the finance department.",
+      "status": "complete"
+    },
+    {
+      "id": "19",
+      "title": "Review Employee Feedback",
+      "description": "Analyze and report on employee feedback from the latest internal survey.",
+      "status": "incomplete"
+    }
+  ]
+}
