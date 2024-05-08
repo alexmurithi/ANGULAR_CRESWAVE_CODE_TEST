@@ -30,7 +30,7 @@ A task management application built with Angular and Angular Material. The appli
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/alexmurithi/task-manager-prep.git
+   https://github.com/alexmurithi/ANGULAR_CRESWAVE_CODE_TEST.git
    ```
 
 2. Change to the project directory:
